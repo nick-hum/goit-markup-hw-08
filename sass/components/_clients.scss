@@ -1,0 +1,59 @@
+.section.clients {
+  padding-bottom: 94px;
+}
+
+.list.permanent {
+  display: flex;
+  justify-content: center;
+}
+
+.client-item {
+  width: calc((100% - 150px) / 6);
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.client-link {
+  display: block;
+  width: 170px;
+  height: 90px;
+  border: 1px solid $event-color;
+  border-radius: 4px;
+  color: $event-color;
+  transition: color $main-transition, border $main-transition;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    border: 1px solid $accent-color;
+  }
+}
+
+.client-icon {
+  fill: currentColor;
+}
+
+.one {
+  margin: 20px 63px;
+}
+
+.two {
+  margin: 19px 65px;
+}
+
+.three {
+  margin: 24px 65px;
+}
+
+.four {
+  margin: 24px 45px;
+}
+
+.five {
+  margin: 22px 56px;
+}
+
+.six {
+  margin: 22px 41px;
+}
